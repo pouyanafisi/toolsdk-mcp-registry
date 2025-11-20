@@ -7,12 +7,6 @@
 **Your private, secure, and customizable MCP Registry — take full control of your tools.**
 
 <p align="center">
-  <a href="https://www.producthunt.com/products/toolsdk-ai">
-    <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily" alt="Product Hunt" height="40" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://www.npmjs.com/package/@toolsdk.ai/registry">
     <img src="https://img.shields.io/npm/v/@toolsdk.ai/registry.svg?style=flat-square" alt="npm version" />
   </a>
@@ -21,6 +15,12 @@
   </a>
   <img src="https://img.shields.io/badge/MCP_Servers-4109-blue?style=flat-square" alt="MCP Servers Count" />
   <img src="https://img.shields.io/badge/LICENSE-MIT-ff69b4?style=flat-square" alt="License" />
+</p>
+
+<p align="center">
+  <a href="https://www.producthunt.com/products/toolsdk-ai">
+    <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=997428&theme=light&period=daily" alt="Product Hunt" height="40" />
+  </a>
 </p>
 
 <p align="center">
@@ -39,6 +39,8 @@
   <a href="#quick-start">🐳 <b>Deploy Private Registry</b></a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="#install-via-package-manager">📦 <b>Use as SDK</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#submit-new-mcp-servers">➕ <b>Add Server</b></a>
 </p>
 
 ---
@@ -55,23 +57,17 @@ Deploy your own **private MCP registry** in 5 minutes! Get a production-ready AI
 
 Perfect for **AI developers**, **LLM teams**, and **enterprises** building with Claude, Anthropic, and other AI platforms.
 
-#### ⚡ Quick Deploy (2 Steps)
+#### ⚡ Quick Deploy (One-Liner)
 
-**Prerequisites:**
-- Docker & Docker Compose
-- (Optional) Sandock API Key - *Required only if you need secure remote execution features.*
-
-**Step 1: Configure Environment**
-
-- Edit `.env` (optional): `SANDOCK_API_KEY=your-api-key-here`
-- *Note: You can skip this if you only need the Registry and Search features.*
-- *Note: If you do not want to use the sandbox, set `MCP_SANDBOX_PROVIDER=LOCAL` in `.env`.*
-
-**Step 2: Launch with Docker Compose**
+Start the registry immediately with default settings:
 
 ```bash
 docker compose up -d
 ```
+
+**Optional Configuration:**
+- Create a `.env` file if you need secure remote execution (Sandock) or want to disable the sandbox (`MCP_SANDBOX_PROVIDER=LOCAL`).
+- *See [Configuration Guide](./docs/DEVELOPMENT.md) for full details.*
 
 > 💡 **Tip for Private Deployment**:
 > This registry contains 4109+ public MCP servers. If you only need a specific subset for your private environment, you can prune the `packages/` directory.
