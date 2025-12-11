@@ -343,8 +343,8 @@
   "kubernetes-mcp-server": {
     "category": "cloud-platforms",
     "path": "cloud-platforms/kubernetes-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@cloudflare/mcp-server-cloudflare": {
     "category": "cloud-platforms",
@@ -42197,7 +42197,7 @@
   },
   "12306-mcp": {
     "category": "travel-transportation",
-    "path": "travel-transportation/jok-12306-mcp.json",
+    "path": "travel-transportation/12306-mcp.json",
     "validated": true,
     "tools": {
       "get-current-date": {
@@ -47630,5 +47630,9 @@
         "description": "\n    Retrieves AI-generated summaries of web search results using Brave's Summarizer API. This tool processes search results to create concise, coherent summaries of information gathered from multiple sources.\n\n    When to use:\n\n    - When you need a concise overview of complex topics from multiple sources\n    - For quick fact-checking or getting key points without reading full articles\n    - When providing users with summarized information that synthesizes various perspectives\n    - For research tasks requiring distilled information from web searches\n\n    Returns a text summary that consolidates information from the search results. Optional features include inline references to source URLs and additional entity information.\n\n    Requirements: Must first perform a web search using brave_web_search with summary=true parameter. Requires a Pro AI subscription to access the summarizer functionality.\n"
       }
     }
+  },
+  "mcp/tavily": {
+    "path": "search-data-extraction/tavily-docker-mcp-server.json",
+    "category": "search-data-extraction"
   }
 }

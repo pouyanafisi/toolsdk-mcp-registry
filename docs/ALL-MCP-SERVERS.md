@@ -1,6 +1,6 @@
 # 📚 All MCP Servers
 
-> **Complete directory of all 4117+ MCP servers in the ToolSDK Registry**
+> **Complete directory of all 4118+ MCP servers in the ToolSDK Registry**
 >
 > Looking for production-ready servers only? See the [main README](../README.md) for validated servers.
 
@@ -8,9 +8,9 @@
 
 ## 📊 Statistics
 
-- 📦 **Total Servers**: 4117
+- 📦 **Total Servers**: 4118
 - ✅ **Validated & Tested**: 717
-- ⚙️ **Community Contributed**: 3400
+- ⚙️ **Community Contributed**: 3401
 
 ---
 
@@ -3007,7 +3007,7 @@ New mcp tool: Exa-code is a context tool for coding   (1 tools) (node)
 
 
 <a id="search-data-extraction"></a>
-### Search & Data Extraction <small>(405 servers)</small>
+### Search & Data Extraction <small>(406 servers)</small>
 
 > Find and extract data from various sources quickly and efficiently.
 
@@ -3269,6 +3269,7 @@ New mcp tool: Exa-code is a context tool for coding   (1 tools) (node)
 - [❌ mcp-simple-arxiv](https://github.com/andybrandt/mcp-simple-arxiv): Search and analyze scientific papers from arXiv.  (python) 
 - [❌ mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed): Access PubMed's medical research database via the Entrez API for biomedical literature search and analysis.  (python) 
 - [❌ mcp-tavily](https://github.com/ramxx/mcp-tavily): Search and retrieve AI-enhanced web results via Tavily.  (python) 
+- [❌ mcp/tavily](https://github.com/tavily-ai/tavily-mcp): Tavily is a search engine optimized for LLMs and RAG, aimed at efficient, quick and persistent search results. (Docker Runtime)  (docker) 
 - [❌ medium-accelerator](https://github.com/crtdaniele/mcp-medium-accelerator): Accelerates Medium article research by extracting article links from archive pages, scraping full content for summarization, and maintaining a persistent local database of article summaries with metadata for efficient content discovery and organization.  (python) 
 - [❌ meilisearch](https://github.com/meilisearch/meilisearch-mcp): Integrates Meilisearch's search capabilities for fast, typo-tolerant indexing and querying of documents in AI-powered applications.  (python) 
 - [❌ meilisearch-hybrid-search](https://github.com/miiton/meilisearch-hybrid-search-mcp): Bridges Claude with Meilisearch's hybrid search capabilities, enabling adjustable semantic-to-keyword ratio searches with customizable document filtering for precise information retrieval.  (go) 
@@ -3695,8 +3696,8 @@ New mcp tool: Exa-code is a context tool for coding   (1 tools) (node)
 - [✅ @mfukushim/map-traveler-mcp](https://github.com/mfukushim/map-traveler-mcp): Integrates with Google Maps to create virtual travel experiences where users can navigate real-world routes with customizable avatars, discover nearby facilities, and share journeys on Bluesky.  (8 tools) (node) 
 - [✅ @openbnb/mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb): Integrates with Airbnb to enable vacation rental search and detailed property information retrieval without requiring API keys  (2 tools) (node) 
 - [✅ @variflight-ai/variflight-mcp](https://github.com/variflight/variflight-mcp): Integrates with Variflight API to provide real-time flight information, schedules, aircraft tracking, airport weather forecasts, and comfort metrics for travel planning and aviation monitoring applications.  (8 tools) (node) 
-- [✅ 12306-mcp](https://github.com/Joooook/12306-mcp): A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.  (8 tools) (node) 
-- [✅ 12306-mcp](https://github.com/Joooook/12306-mcp): A 12306 ticket search server based on the Model Context Protocol (MCP). The server provides a simple API interface that allows users to search for 12306 tickets.  (8 tools) (node) 
+- [✅ 12306-mcp](https://github.com/freestylefly/12306-mcp): Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.  (8 tools) (node) 
+- [✅ 12306-mcp](https://github.com/freestylefly/12306-mcp): Integrates with China's 12306 railway system to search train tickets, check schedules, and retrieve route information across the Chinese railway network with real-time availability and pricing data.  (8 tools) (node) 
 - [✅ caltrain-mcp](https://github.com/davidyen1124/caltrain-mcp): Provides real-time Caltrain commuter rail information including schedules, station details, and trip planning for the San Francisco Bay Area  (2 tools) (python) 
 - [✅ lumbretravel-mcp](https://github.com/lumile/lumbretravel-mcp): Integrates with the Argentinian LumbreTravel API to manage travel programs, activities, and bookings for efficient itinerary planning and service coordination.  (68 tools) (node) 
 - [✅ train_12306](https://github.com/ecmadao/Train-12306): A command line tool to show 12306 tickets  (4 tools) (python) 
