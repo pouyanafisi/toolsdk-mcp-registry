@@ -15110,7 +15110,7 @@
   },
   "@paypal/mcp": {
     "category": "finance-fintech",
-    "path": "finance-fintech/paypal-mcp.json",
+    "path": "finance-fintech/paypal-mcp-server.json",
     "validated": false,
     "tools": {}
   },
@@ -42191,7 +42191,7 @@
   },
   "12306-mcp": {
     "category": "travel-transportation",
-    "path": "travel-transportation/jok-12306-mcp.json",
+    "path": "travel-transportation/12306-mcp.json",
     "validated": true,
     "tools": {
       "get-current-date": {
@@ -47651,8 +47651,8 @@
   "postman/postman-mcp-server": {
     "category": "developer-tools",
     "path": "developer-tools/postman-postman-mcp-server.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   },
   "@sveltejs/mcp": {
     "category": "developer-tools",
@@ -47680,6 +47680,7 @@
   "@mapbox/mcp-server": {
     "category": "location-services",
     "path": "location-services/mapbox-mcp-server.json",
+    "validated": true,
     "tools": {
       "version_tool": {
         "name": "version_tool",
@@ -47717,13 +47718,12 @@
         "name": "search_and_geocode_tool",
         "description": "Search for POIs, brands, chains, geocode cities, towns, addresses. Do not use for generic place types such as 'museums', 'coffee shops', 'tacos', etc, because category_search_tool is better for that. Setting a proximity point is strongly encouraged for more local results."
       }
-    },
-    "validated": true
+    }
   },
   "@supabase/mcp-server-supabase": {
     "category": "databases",
     "path": "databases/supabase-mcp-server-supabase.json",
-    "tools": {},
-    "validated": false
+    "validated": false,
+    "tools": {}
   }
 }
